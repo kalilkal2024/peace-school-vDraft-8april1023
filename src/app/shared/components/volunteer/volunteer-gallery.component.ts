@@ -13,24 +13,44 @@ import { OwlOptions } from 'ngx-owl-carousel-o';
 export class VolunteerGalleryComponent {
   galleryImages = [
     {
-      url: 'assets/images/gallery/test.jpg',
-      caption: 'English Teaching Workshop'
+      url: 'assets/images/gallery/volunteer/v-monks.jpg',
+      caption: 'Volunteer teachers are offering food to monks as part of a public school ceremony.'
     },
     {
-      url: 'assets/images/gallery/community-project.jpg',
-      caption: 'Community Development Project'
+      url: 'assets/images/gallery/volunteer/v-yoga.jpg',
+      caption: 'Volunteers are teaching yoga to students during the morning class.'
     },
     {
-      url: 'assets/images/gallery/cultural-exchange.jpg',
-      caption: 'Cultural Exchange Activities'
+      url: 'assets/images/gallery/volunteer/v-donation.jpg',
+      caption: 'Volunteer teachers generously donate study materials to support the students learning.'
     },
     {
-      url: 'assets/images/gallery/sports-program.jpg',
-      caption: 'Sports Program with Local Children'
+      url: 'assets/images/gallery/volunteer/v-scholarship.png',
+      caption: 'Rob and Kat with the scholarship student and her mother'
     },
     {
-      url: 'assets/images/gallery/classroom.jpg',
-      caption: 'Classroom Activities'
+      url: 'assets/images/gallery/volunteer/v-familyhome.png',
+      caption: 'Karol visited the scholarship student and their family at home'
+    },
+    {
+      url: 'assets/images/gallery/volunteer/v-teaching.png',
+      caption: 'A volunteer teacher is teaching English.'
+    },
+    {
+      url: 'assets/images/gallery/volunteer/v-meeting.png',
+      caption: 'Volunteer teachers are meeting with the district educational director.'
+    },
+    {
+      url: 'assets/images/gallery/volunteer/v-weeding.png',
+      caption: 'Volunteer in a Khmer wedding dress.'
+    },
+    {
+      url: 'assets/images/gallery/volunteer/v-khmernewyear.png',
+      caption: 'A photo with volunteer during Khmer New Year at High school in the district '
+    },
+    {
+      url: 'assets/images/gallery/volunteer/v-paiting.png',
+      caption: 'Volunteer painting the school wall'
     }
   ];
 
@@ -55,7 +75,7 @@ export class VolunteerGalleryComponent {
     },
     nav: true,
     autoplay: true,
-    autoplayTimeout: 5000,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true
   };
 }
